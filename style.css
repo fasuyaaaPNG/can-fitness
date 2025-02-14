@@ -61,6 +61,7 @@ a {
     font-weight: 600;
     font-size: 46px;
     width: 550px;
+    margin-bottom: 0px;
 }
 
 .isiDesc1, .isiDesc2, .isiDesc3 {
@@ -450,6 +451,7 @@ hr {
         font-weight: 600;
         font-size: 15px;
         width: max-content;
+        margin-bottom: -2px;
     }
     
     .isiDesc1, .isiDesc2, .isiDesc3 {
@@ -464,7 +466,7 @@ hr {
         background-color: #1391AD;
         display: flex;
         flex-direction: row;
-        font-size: 10px;
+        font-size: 7px;
         height: 40px;
         font-weight: 600;
         width: 100vw;
