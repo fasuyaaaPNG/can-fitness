@@ -112,6 +112,7 @@ a {
     bottom: 130px;
     z-index: -1;
     padding-bottom: 80px;
+    width: 100vw;
 }
 
 .judulIsiButton {
@@ -193,10 +194,18 @@ a {
 }
 
 #trainer{
-    height: 90px;
-    width: 90px;
+    width: 1250px;
     border: 1px solid red;
     margin-top: 70px;
     margin-left: auto;
     margin-right: auto;
+    display: flex;
+}
+
+.banner3 {
+    width: 400px;
+}
+
+.desc3 {
+    border: 1px solid red;
 }
