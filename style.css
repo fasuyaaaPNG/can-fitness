@@ -512,7 +512,7 @@ hr {
         z-index: -1;
         padding-bottom: 0px;
         width: 100vw;
-        border: 1px solid red;
+        /* border: 1px solid red; */
     }
     
     .judulIsiButton {
@@ -548,53 +548,54 @@ hr {
         font-size: 9px;
         border-radius: 32.5px;
         box-shadow: 0px 0px 1px 0px #000000;
+        margin-bottom: -120px;
     }
     
     .contactUs {
         background-color: #FFFFFF;
         color: #000000;
-        width: 370px;
-        height: 395px;
-        border-radius: 20px;
-        padding: 10px 0px 15px 45px;
+        width: 88vw;
+        height: 280px;
+        border-radius: 20px 20px 0 0;
+        padding: 0 0 0 12vw;
     }
     
     .judulContactUs {
         font-weight: 700;
         font-family: "PT Serif", serif;
-        font-size: 28px;
+        font-size: 22px;
         margin-bottom: 35px;
     }
     
     .boxContactUs {
         display: flex;
         flex-direction: column;
-        gap: 20px;
+        gap: 10px;
     }
     
     .judulIsiContentBoxContactUs {
         font-weight: 600;
         margin-top: 0;
-        font-size: 17px;
+        font-size: 12px;
         margin-bottom: -10px;
     }
     
     .deskripsiIsiContentBoxContactUs {
         font-weight: 400;
-        font-size: 13px;
-        width: 260px;
+        font-size: 10px;
+        width: 200px;
         letter-spacing: 5%;
     }
     
     .contentBoxContactUs {
         display: flex;
         align-items: start;
-        gap: 22px;
+        gap: 15px;
     }
     
     .iconContentBoxContactUs {
-        width: 32px;
-        height: 32px;
+        width: 22px;
+        height: 22px;
         margin-top: 0;
     }
     
