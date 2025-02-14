@@ -197,7 +197,7 @@ a {
 #trainer{
     width: 1250px;
     /* border: 1px solid red; */
-    margin-top: 70px;
+    margin-top: 10fix0px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -206,6 +206,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 80px;
 }
 
 .banner3 {
@@ -238,5 +239,5 @@ a {
 
 .fotoContentProfileTrainer {
     width: 270px;
-    height: 320px;
+    height: 340px;
 }
