@@ -57,13 +57,13 @@ a {
     margin-right: auto;
 }
 
-.judulDesc1, .judulDesc2 {
+.judulDesc1, .judulDesc2, .judulDesc3 {
     font-weight: 600;
     font-size: 46px;
     width: 550px;
 }
 
-.isiDesc1, .isiDesc2 {
+.isiDesc1, .isiDesc2, .isiDesc3 {
     font-weight: 400;
     font-size: 20px;
     width: 680px;
@@ -196,17 +196,30 @@ a {
 
 #trainer{
     width: 1250px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin-top: 70px;
     margin-left: auto;
     margin-right: auto;
     display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .banner3 {
-    width: 400px;
+    width: 420px;
+    height: 150px;
 }
 
 .desc3 {
-    border: 1px solid red;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.judulDesc3, .isiDesc3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 745px;
+    /* border: 1px solid green; */
 }
