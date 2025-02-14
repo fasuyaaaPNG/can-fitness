@@ -1,0 +1,200 @@
+body {
+    background-color: #000000;
+    color: #ffffff;
+    margin: 0;
+    /* border: 1px solid rgb(255, 255, 255); */
+    font-family: "Poppins", serif;
+}
+
+nav {
+    /* border: 1px solid red; */
+    width: 1366;
+    height: 67px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 50px 15px 50px;
+    margin-bottom: 30px;
+}
+
+.logo {
+    width: 200px;
+}
+
+.navbar {
+    display: flex;
+    gap: 28px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#home {
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: max-content;
+    margin: auto;
+}
+
+.banner1,.banner2 {
+    width: 1250px;
+}
+
+.desc1, .desc2 {
+    /* border: 1px solid yellow; */
+    display: flex;
+    width: 1250px;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.judulDesc1, .judulDesc2 {
+    font-weight: 600;
+    font-size: 46px;
+    width: 550px;
+}
+
+.isiDesc1, .isiDesc2 {
+    font-weight: 400;
+    font-size: 20px;
+    width: 680px;
+    line-height: 36px;
+}
+
+.slider1 {
+    background-color: #1391AD;
+    display: flex;
+    flex-direction: row;
+    font-size: 22px;
+    height: 80px;
+    font-weight: 600;
+    width: 100%;
+    justify-content: space-around;
+    font-style: italic;
+    font-family: "Poppins", serif;
+    align-items: center;
+    margin-bottom: 80px;
+    margin-top: 45px;
+}
+
+#about {
+    margin: auto;
+    margin-bottom: -130px;
+}
+
+.banner2 {
+    display: block;
+}
+
+.bannerIcon {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.iconplay {
+    position: absolute;
+}
+
+.backgroundDesc2 {
+    background-color: #1391AD40;
+    padding-top: 220px;
+    position: relative;
+    bottom: 130px;
+    z-index: -1;
+    padding-bottom: 80px;
+}
+
+.judulIsiButton {
+    display: flex;
+    flex-direction: column;
+}
+
+.judulDesc2 {
+    width: 650px;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+.isiDesc2 {
+    width: 660px;
+    margin-bottom: 30px;
+}
+
+.buttonDesc2 {
+    background-image: linear-gradient(#24FFDD,#1391AD);
+    border: none;
+    color: #FFFFFF;
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    padding: 14px 20px 14px 20px;
+    width: 180px;
+    height: 57px;
+    font-size: 18px;
+    border-radius: 32.5px;
+    box-shadow: 0px 0px 1px 0px #000000;
+}
+
+.contactUs {
+    background-color: #FFFFFF;
+    color: #000000;
+    width: 370px;
+    height: 395px;
+    border-radius: 20px;
+    padding: 10px 0px 15px 45px;
+}
+
+.judulContactUs {
+    font-weight: 700;
+    font-family: "PT Serif", serif;
+    font-size: 28px;
+    margin-bottom: 35px;
+}
+
+.boxContactUs {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.judulIsiContentBoxContactUs {
+    font-weight: 600;
+    margin-top: 0;
+    font-size: 17px;
+    margin-bottom: -10px;
+}
+
+.deskripsiIsiContentBoxContactUs {
+    font-weight: 400;
+    font-size: 13px;
+    width: 260px;
+    letter-spacing: 5%;
+}
+
+.contentBoxContactUs {
+    display: flex;
+    align-items: start;
+    gap: 22px;
+}
+
+.iconContentBoxContactUs {
+    width: 32px;
+    height: 32px;
+    margin-top: 0;
+}
+
+#trainer{
+    height: 90px;
+    width: 90px;
+    border: 1px solid red;
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+}
