@@ -69,6 +69,7 @@ a {
     font-size: 20px;
     width: 680px;
     line-height: 36px;
+    margin-bottom: 0px;
 }
 
 .slider1 {
@@ -101,10 +102,12 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+    bottom: 0px
 }
 
 .iconplay {
     position: absolute;
+    width: 80px;
 }
 
 .backgroundDesc2 {
@@ -460,6 +463,7 @@ hr {
         width: 310px;
         line-height: 15px;
         text-align: center;
+        margin-bottom: -20px;
     }
     
     .slider1 {
@@ -474,7 +478,7 @@ hr {
         font-style: italic;
         font-family: "Poppins", serif;
         align-items: center;
-        margin-bottom: 120px;
+        margin-bottom: 90px;
         margin-top: 45px;
     }
     
@@ -492,19 +496,21 @@ hr {
         display: flex;
         justify-content: center;
         align-items: center;
+        bottom: 50px;
     }
     
     .iconplay {
         position: absolute;
+        width: 50px;
     }
     
     .backgroundDesc2 {
         background-color: #1391AD40;
         padding-top: 220px;
         position: relative;
-        bottom: 130px;
+        bottom: 90px;
         z-index: -1;
-        padding-bottom: 80px;
+        padding-bottom: 800px;
         width: 100vw;
     }
     
