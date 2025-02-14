@@ -226,3 +226,17 @@ a {
     width: 745px;
     /* border: 1px solid green; */
 }
+
+.profileTrainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.namaContentProfileTrainer {
+    font-size: 22px;
+}
+
+.fotoContentProfileTrainer {
+    width: 270px;
+    height: 320px;
+}
