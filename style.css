@@ -1,8 +1,7 @@
 body {
     background-color: #000000;
     color: #ffffff;
-    margin-left: 30px;
-    margin-right: 30px;
+    margin: 0;
     /* border: 1px solid rgb(255, 255, 255); */
     font-family: "Poppins", serif;
     overflow-x: hidden;
@@ -58,7 +57,7 @@ a {
     margin-right: auto;
 }
 
-.judulDesc1, .judulDesc2, .judulDesc3 {
+.judulDesc1, .judulDesc2, .judulDesc3, .judulHappyMember {
     font-weight: 600;
     font-size: 46px;
     width: 550px;
@@ -232,6 +231,7 @@ a {
 .profileTrainer {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 120px;
 }
 
 .namaContentProfileTrainer {
@@ -241,4 +241,50 @@ a {
 .fotoContentProfileTrainer {
     width: 270px;
     height: 340px;
+}
+
+.judulHappyMember {
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.boxHappyMember {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    color: #000000;
+    width: 378px;
+}
+
+.profileHappyMember {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid red;
+    width: max-content;
+    align-items: center;
+    gap: 28px;
+}
+
+.fotoProfileHappyMember {
+    width: 80px;
+    height: 80px;
+}
+
+.identitasProfileHappyMember {
+    display: flex;
+    /* border: 1px solid red; */
+    flex-direction: column;
+    gap: 5px;
+}
+
+.namaIdentitasProfileHappyMember {
+    font-weight: 500;
+}
+
+.keteranganIdentitasProfileHappyMember {
+    font-weight: 400;
+}
+
+.namaIdentitasProfileHappyMember,.keteranganIdentitasProfileHappyMember {
+    margin: 0;
 }
