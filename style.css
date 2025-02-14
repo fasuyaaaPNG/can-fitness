@@ -383,3 +383,394 @@ hr {
     font-size: 16px;
     font-weight: 300;
 }
+
+/* responsif mobile */
+
+@media only screen and (max-width: 480px) and (max-height: 854px) {
+    body {
+        background-color: #000000;
+        color: #ffffff;
+        margin: 0;
+        /* border: 1px solid rgb(255, 255, 255); */
+        font-family: "Poppins", serif;
+        overflow-x: auto;
+    }
+    
+    nav {
+        /* border: 1px solid red; */
+        width: 92vw;
+        height: 67px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0px 0px 0px 0px;
+        margin-bottom: 30px;
+    }
+    
+    .logo {
+        width: 100px;
+    }
+    
+    .navbar {
+        display: flex;
+        gap: 10px;
+    }
+    
+    a {
+        color: #ffffff;
+        text-decoration: none;
+    }
+    
+    #home {
+        /* border: 1px solid white; */
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: max-content;
+        margin: auto;
+    }
+    
+    .banner1,.banner2 {
+        width: 300px;
+        margin: auto;
+    }
+    
+    .desc1, .desc2 {
+        /* border: 1px solid yellow; */
+        display: flex;
+        width: 300px;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .judulDesc1, .judulDesc2, .judulDesc3, .judulHappyMember {
+        font-weight: 600;
+        font-size: 15px;
+        width: max-content;
+    }
+    
+    .isiDesc1, .isiDesc2, .isiDesc3 {
+        font-weight: 400;
+        font-size: 10px;
+        width: 310px;
+        line-height: 15px;
+        text-align: center;
+    }
+    
+    .slider1 {
+        background-color: #1391AD;
+        display: flex;
+        flex-direction: row;
+        font-size: 10px;
+        height: 40px;
+        font-weight: 600;
+        width: 100vw;
+        justify-content: space-around;
+        font-style: italic;
+        font-family: "Poppins", serif;
+        align-items: center;
+        margin-bottom: 120px;
+        margin-top: 45px;
+    }
+    
+    #about {
+        margin: auto;
+        margin-bottom: -130px;
+    }
+    
+    .banner2 {
+        display: block;
+    }
+    
+    .bannerIcon {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .iconplay {
+        position: absolute;
+    }
+    
+    .backgroundDesc2 {
+        background-color: #1391AD40;
+        padding-top: 220px;
+        position: relative;
+        bottom: 130px;
+        z-index: -1;
+        padding-bottom: 80px;
+        width: 100vw;
+    }
+    
+    .judulIsiButton {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .judulDesc2 {
+        width: 650px;
+        margin-bottom: 10px;
+        margin-top: 0;
+    }
+    
+    .isiDesc2 {
+        width: 660px;
+        margin-bottom: 30px;
+    }
+    
+    .buttonDesc2 {
+        background-image: linear-gradient(#24FFDD,#1391AD);
+        border: none;
+        color: #FFFFFF;
+        font-family: "Poppins", serif;
+        font-weight: 500;
+        padding: 14px 20px 14px 20px;
+        width: 180px;
+        height: 57px;
+        font-size: 18px;
+        border-radius: 32.5px;
+        box-shadow: 0px 0px 1px 0px #000000;
+    }
+    
+    .contactUs {
+        background-color: #FFFFFF;
+        color: #000000;
+        width: 370px;
+        height: 395px;
+        border-radius: 20px;
+        padding: 10px 0px 15px 45px;
+    }
+    
+    .judulContactUs {
+        font-weight: 700;
+        font-family: "PT Serif", serif;
+        font-size: 28px;
+        margin-bottom: 35px;
+    }
+    
+    .boxContactUs {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .judulIsiContentBoxContactUs {
+        font-weight: 600;
+        margin-top: 0;
+        font-size: 17px;
+        margin-bottom: -10px;
+    }
+    
+    .deskripsiIsiContentBoxContactUs {
+        font-weight: 400;
+        font-size: 13px;
+        width: 260px;
+        letter-spacing: 5%;
+    }
+    
+    .contentBoxContactUs {
+        display: flex;
+        align-items: start;
+        gap: 22px;
+    }
+    
+    .iconContentBoxContactUs {
+        width: 32px;
+        height: 32px;
+        margin-top: 0;
+    }
+    
+    #trainer{
+        width: 1250px;
+        /* border: 1px solid red; */
+        margin-top: 100px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 90px;
+    }
+    
+    .headerDesc3 {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 80px;
+    }
+    
+    .banner3 {
+        width: 420px;
+        height: 150px;
+    }
+    
+    .desc3 {
+        /* border: 1px solid red; */
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .judulDesc3, .isiDesc3 {
+        margin-top: 0;
+        margin-bottom: 0;
+        width: 745px;
+        /* border: 1px solid green; */
+    }
+    
+    .profileTrainer {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 130px;
+    }
+    
+    .namaContentProfileTrainer {
+        font-size: 22px;
+    }
+    
+    .fotoContentProfileTrainer {
+        width: 270px;
+        height: 340px;
+    }
+    
+    .judulHappyMember {
+        width: max-content;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 80px;
+    }
+    
+    .sectionBoxHappyMember {
+        display: flex;
+        justify-content: space-between;
+        width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .boxHappyMember {
+        background-color: #FFFFFF;
+        border-radius: 15px;
+        color: #000000;
+        width: max-content;
+        padding: 17px 29px 17px 29px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .profileHappyMember {
+        display: flex;
+        flex-direction: row;
+        width: max-content;
+        align-items: center;
+        gap: 28px;
+    }
+    
+    .fotoProfileHappyMember {
+        width: 80px;
+        height: 80px;
+    }
+    
+    .identitasProfileHappyMember {
+        display: flex;
+        /* border: 1px solid red; */
+        flex-direction: column;
+        gap: 5px;
+    }
+    
+    .namaIdentitasProfileHappyMember {
+        font-weight: 500;
+        font-size: 20px;
+    }
+    
+    .keteranganIdentitasProfileHappyMember {
+        font-weight: 400;
+        font-size: 14px;
+    }
+    
+    .namaIdentitasProfileHappyMember,.keteranganIdentitasProfileHappyMember {
+        margin: 0;
+    }
+    
+    .testiHappyMember {
+        color: #585252;
+        font-size: 14px;
+        font-weight: 400;
+        width: 320px;
+    }
+    
+    .headerFooter {
+        background-color: #1AB9BF;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 45px 0 45px;
+    }
+    
+    .judulHeaderFooter {
+        font-family: "PT Serif", serif;
+        font-weight: 700;
+        font-size: 38px;
+        margin: 20px 0 21px 0;
+    }
+    
+    .buttonHeaderFooter {
+        background-color: #F4CD00;
+        color: #FFFFFF;
+        border: none;
+        padding: 13px 35px 13px 35px;
+        border-radius: 10px;
+        font-size: 20px;
+    }
+    
+    footer {
+        background-color: #1AB9BFA1;
+    }
+    
+    .contentFooter {
+        display: flex;
+        /* border: 1px solid red; */
+        width: max-content;
+        margin-left: auto;
+        margin-right: auto;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .logoFooter {
+        width: 218px;
+        margin-top: 38px;
+        margin-bottom: 35px;
+    }
+    
+    .navFooter {
+        display: flex;
+        width: 500px;
+        justify-content: space-between;
+        margin-bottom: 39px;
+    }
+    
+    .textNavFooter {
+        font-size: 18px;
+        letter-spacing: 3%;
+    }
+    
+    hr {
+        opacity: 0.25;
+        margin-bottom: 30px;
+    }
+    
+    .copyright {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 40px;
+    }
+    
+    .txtCopyright {
+        font-size: 16px;
+        font-weight: 300;
+    }
+  }
