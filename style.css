@@ -484,7 +484,7 @@ hr {
     
     #about {
         margin: auto;
-        margin-bottom: -130px;
+        margin-bottom: 0px;
     }
     
     .banner2 {
@@ -510,24 +510,30 @@ hr {
         position: relative;
         bottom: 90px;
         z-index: -1;
-        padding-bottom: 800px;
+        padding-bottom: 0px;
         width: 100vw;
+        border: 1px solid red;
     }
     
     .judulIsiButton {
         display: flex;
         flex-direction: column;
+        position: relative;
+        bottom: 160px;
+        right: 10px;
     }
     
     .judulDesc2 {
-        width: 650px;
+        width: 190px;
         margin-bottom: 10px;
         margin-top: 0;
+        font-size: 20px;
     }
     
     .isiDesc2 {
-        width: 660px;
-        margin-bottom: 30px;
+        width: 270px;
+        margin-bottom: 15px;
+        text-align: left;
     }
     
     .buttonDesc2 {
@@ -536,10 +542,10 @@ hr {
         color: #FFFFFF;
         font-family: "Poppins", serif;
         font-weight: 500;
-        padding: 14px 20px 14px 20px;
-        width: 180px;
-        height: 57px;
-        font-size: 18px;
+        padding: 0 0 0 0;
+        width: 80px;
+        height: 29px;
+        font-size: 9px;
         border-radius: 32.5px;
         box-shadow: 0px 0px 1px 0px #000000;
     }
