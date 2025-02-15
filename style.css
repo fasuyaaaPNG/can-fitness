@@ -647,10 +647,16 @@ hr {
         display: flex;
         justify-content: space-between;
         margin-bottom: 130px;
-        width: 300px;
+        width: 100vw;
         overflow-x: scroll;
-        gap: 30px;
+        gap: 50px;
+        margin-left: -25px;
         border: 1px solid red;
+    }
+
+    .contentProfileTrainer {
+        position: relative;
+        left: 25px;
     }
     
     .namaContentProfileTrainer {
