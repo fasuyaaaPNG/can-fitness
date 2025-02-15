@@ -390,7 +390,7 @@ hr {
 
 /* responsif mobile */
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 600px) {
     body {
         background-color: #000000;
         color: #ffffff;
@@ -452,7 +452,7 @@ hr {
     
     .judulDesc1, .judulDesc2, .judulDesc3, .judulHappyMember {
         font-weight: 600;
-        font-size: 15px;
+        font-size: 14.5px;
         width: max-content;
         margin-bottom: -2px;
     }
@@ -510,9 +510,8 @@ hr {
         position: relative;
         bottom: 90px;
         z-index: -1;
-        padding-bottom: 0px;
+        padding-bottom: 0;
         width: 100vw;
-        /* border: 1px solid red; */
     }
     
     .judulIsiButton {
@@ -548,16 +547,27 @@ hr {
         font-size: 10px;
         border-radius: 32.5px;
         box-shadow: 0px 0px 1px 0px #000000;
-        margin-bottom: -120px;
+        margin-bottom: -130px;
     }
     
     .contactUs {
         background-color: #FFFFFF;
         color: #000000;
-        width: 87vw;
+        width: 100vw;
         height: 280px;
-        border-radius: 20px 20px 0 0;
-        padding: 0 0 0 13vw;
+        padding: 20px 0 0 0;
+        border-radius: 90px 90px 0 0;
+        display: flex;
+        flex-direction: column;
+        align-items:start;
+        position: relative;
+        top: 10px;
+    }
+
+    .wrapperBoxContactUs {
+        margin-left: auto;
+        margin-right: auto;
+        width: 300px;
     }
     
     .judulContactUs {
@@ -673,7 +683,7 @@ hr {
             margin-left: 8vw;
         }
         100% {
-            margin-left: -54vw;
+            margin-left: -20vw;
         }
       }
       
@@ -682,7 +692,7 @@ hr {
           margin-left: 8vw;
         }
         100% {
-          margin-left: -54vw;
+          margin-left: -20vw;
         }
       }      
 
