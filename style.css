@@ -650,7 +650,7 @@ hr {
         display: flex;
         justify-content: space-between;
         margin-bottom: 130px;
-        width: 300px;
+        width: 100vw;
         overflow-x: scroll;
         gap: 50px;
         border: 1px solid red;
@@ -658,19 +658,17 @@ hr {
 
     .contentProfileTrainer {
         border: 1px solid red;
+        position: relative;
+        left: 28px;
     }
     
     .namaContentProfileTrainer {
-        font-size: 15px;
+        font-size: 10px;
     }
     
     .fotoContentProfileTrainer {
-        width: 150px;
-        height: 200px;
-    }
-
-    .carousel-enabled {
-        width: 100vw;
+        width: 110px;
+        height: 150px;
     }
     
     .judulHappyMember {
