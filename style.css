@@ -663,19 +663,19 @@ hr {
       
       @-webkit-keyframes move {
         0% {
-            margin-left: 68vw;
+            margin-left: 57vw;
         }
         100% {
-            margin-left: -68vw;
+            margin-left: -57vw;
         }
       }
       
       @keyframes move {
         0% {
-          margin-left: 68vw;
+          margin-left: 57vw;
         }
         100% {
-          margin-left: -68vw;
+          margin-left: -57vw;
         }
       }      
 
