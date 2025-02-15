@@ -397,7 +397,7 @@ hr {
         margin: 0;
         /* border: 1px solid rgb(255, 255, 255); */
         font-family: "Poppins", serif;
-        overflow-x: hidden;
+        overflow-x: auto;
     }
     
     nav {
@@ -640,13 +640,15 @@ hr {
 
     .isiDesc3 {
         width: 300px;
+        margin-bottom: -20px;
     }
     
     .profileTrainer {
         display: flex;
         justify-content: space-between;
         margin-bottom: 130px;
-        width: max-content;
+        width: 300px;
+        overflow-x: scroll;
         gap: 30px;
         border: 1px solid red;
     }
