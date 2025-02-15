@@ -450,15 +450,19 @@ hr {
         display: flex;
         flex-direction: column;
         gap: 10px;
-        background-color: #000000;
-        padding: 5px 20px 20px 20px;
-        border-left: 2px solid #1391AD;
-        border-bottom: 2px solid #1391AD;
+        background-color: #1391AD;
+        padding: 20px 20px 20px 20px;
+        border-left: 2px solid #ffffff;
+        border-bottom: 2px solid #ffffff;
+        border-bottom-left-radius: 20px;
         text-align: right;
         position: relative;
         bottom: 160px;
         transition: 0.4s;
         transition: all 1.5s ease;
+    }
+    .textNav {
+        color: #000000;
     }
     .navbar-enabled {
         position: relative;
