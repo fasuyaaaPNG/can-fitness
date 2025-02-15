@@ -643,22 +643,45 @@ hr {
 
     .isiDesc3 {
         width: 300px;
-        margin-bottom: -20px;
+        margin-bottom: -50px;
     }
     
     .profileTrainer {
         display: flex;
         justify-content: space-between;
-        margin-bottom: 130px;
-        width: 100vw;
-        overflow-x: scroll;
-        gap: 50px;
-        border: 1px solid red;
-    }
+        margin-bottom: 80px;
+        width: max-content;
+        gap: 30px;
+        -webkit-animation: move 8s infinite linear alternate;
+        animation: move 8s infinite linear alternate;
+      }
+      
+      #box:hover {
+        -webkit-animation-play-state: paused;
+        animation-play-state: paused;
+      }
+      
+      @-webkit-keyframes move {
+        0% {
+            margin-left: 68vw;
+        }
+        100% {
+            margin-left: -68vw;
+        }
+      }
+      
+      @keyframes move {
+        0% {
+          margin-left: 68vw;
+        }
+        100% {
+          margin-left: -68vw;
+        }
+      }      
 
-    .contentProfileTrainer {
+    /* .contentProfileTrainer {
         border: 1px solid red;
-    }
+    } */
     
     .namaContentProfileTrainer {
         font-size: 10px;
