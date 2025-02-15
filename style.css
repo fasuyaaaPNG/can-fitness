@@ -1,9 +1,13 @@
+html{
+    width: max-content;
+    font-family: "Poppins", serif;
+}
+
 body {
     background-color: #000000;
     color: #ffffff;
     margin: 0;
     /* border: 1px solid rgb(255, 255, 255); */
-    font-family: "Poppins", serif;
     overflow-x: hidden;
 }
 
@@ -900,9 +904,12 @@ hr {
     } 
   }
 
-  @media only screen and (min-width: 641px) and (max-width: 1007px) {
+  @media only screen and (min-width: 600px) and (max-width: 1200px) {
     .banner1 {
         width: 1160px;
+    }
+    .banner2 {
+        width: 1200px;
     }
     .desc1, .desc2 {
         /* border: 1px solid yellow; */
@@ -915,15 +922,72 @@ hr {
     }
     .isiDesc1, .isiDesc2, .isiDesc3 {
         font-weight: 400;
-        font-size: 17px;
-        width: 680px;
+        font-size: 22px;
+        width: 600px;
         line-height: 36px;
         margin-bottom: 0px;
     }
     .judulDesc1, .judulDesc2, .judulDesc3, .judulHappyMember {
         font-weight: 600;
-        font-size: 30px;
-        width: 550px;
+        font-size: 35px;
+        width: 500px;
         margin-bottom: 0px;
+    }
+    .slider1 {
+        background-color: #1391AD;
+        display: flex;
+        font-size: 22px;
+        height: 80px;
+        font-weight: 600;
+        width: 100%;
+        justify-content: space-around;
+        font-style: italic;
+        font-family: "Poppins", serif;
+        align-items: center;
+        margin-bottom: 120px;
+        margin-top: 45px;
+    }
+    .backgroundDesc2 {
+        background-color: #1391AD40;
+        padding-top: 220px;
+        position: relative;
+        bottom: 130px;
+        z-index: -1;
+        padding-bottom: 80px;
+        width: 100%;
+    }
+    .headerDesc3 {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 80px;
+        width: 1130px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .isiDesc2 {
+        font-weight: 400;
+        font-size: 22px;
+        width: 600px;
+        line-height: 36px;
+        margin-bottom: 20px;
+    }
+    .profileTrainer {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 130px;
+        width: 1100px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .fotoContentProfileTrainer {
+        width: 230px;
+        height: 310px;
+    }
+    .judulHappyMember {
+        font-weight: 600;
+        font-size: 35px;
+        width: 500px;
+        margin-bottom: 60px;
     }
 }
