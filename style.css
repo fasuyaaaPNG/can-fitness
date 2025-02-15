@@ -607,6 +607,9 @@ hr {
         margin-right: auto;
         margin-bottom: 90px;
         position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     
     .headerDesc3 {
@@ -647,16 +650,14 @@ hr {
         display: flex;
         justify-content: space-between;
         margin-bottom: 130px;
-        width: 100vw;
+        width: 300px;
         overflow-x: scroll;
         gap: 50px;
-        margin-left: -25px;
         border: 1px solid red;
     }
 
     .contentProfileTrainer {
-        position: relative;
-        left: 25px;
+        border: 1px solid red;
     }
     
     .namaContentProfileTrainer {
@@ -666,6 +667,12 @@ hr {
     .fotoContentProfileTrainer {
         width: 150px;
         height: 200px;
+    }
+
+    .carousel-enabled {
+        width: 100vw;
+        position: relative;
+        right: ;
     }
     
     .judulHappyMember {
