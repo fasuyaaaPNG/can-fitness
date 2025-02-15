@@ -627,6 +627,7 @@ hr {
         width: 100vw;
         height: max-content;
         display: flex;
+        justify-content: center;
     }
     
     .headerDesc3 {
@@ -680,19 +681,19 @@ hr {
       
       @-webkit-keyframes move {
         0% {
-            margin-left: 30px;
+            margin-left: 0;
         }
         100% {
-            margin-left: -70px;
+            margin-left: 0;
         }
       }
       
       @keyframes move {
         0% {
-          margin-left: 30px;
+          margin-left: 0;
         }
         100% {
-          margin-left: -70px;
+          margin-left: 0;
         }
       }      
 
@@ -861,4 +862,39 @@ hr {
         font-size: 10px;
         font-weight: 300;
     }
+  }
+
+  @media only screen and (max-width: 550px) {
+    .profileTrainer {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 80px;
+        width: max-content;
+        gap: 30px;
+        -webkit-animation: move 3s infinite linear alternate;
+        animation: move 3s infinite linear alternate;
+    }
+     
+    #box:hover {
+        -webkit-animation-play-state: paused;
+        animation-play-state: paused;
+    }
+      
+    @-webkit-keyframes move {
+        0% {
+            margin-left: -30vw;
+        }
+        100% {
+            margin-left: 50vw;
+        }
+    }
+      
+    @keyframes move {
+        0% {
+          margin-left: -60vw;
+        }
+        100% {
+          margin-left: 50vw;
+        }
+    } 
   }
