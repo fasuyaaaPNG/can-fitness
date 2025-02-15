@@ -669,8 +669,8 @@ hr {
         margin-bottom: 80px;
         width: max-content;
         gap: 30px;
-        -webkit-animation: move 7s infinite linear alternate;
-        animation: move 7s infinite linear alternate;
+        -webkit-animation: move 3s infinite linear alternate;
+        animation: move 3s infinite linear alternate;
       }
       
       #box:hover {
@@ -680,19 +680,19 @@ hr {
       
       @-webkit-keyframes move {
         0% {
-            margin-left: 8vw;
+            margin-left: 30px;
         }
         100% {
-            margin-left: -20vw;
+            margin-left: -30px;
         }
       }
       
       @keyframes move {
         0% {
-          margin-left: 8vw;
+          margin-left: 30px;
         }
         100% {
-          margin-left: -20vw;
+          margin-left: -30px;
         }
       }      
 
