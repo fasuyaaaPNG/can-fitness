@@ -652,8 +652,8 @@ hr {
         margin-bottom: 80px;
         width: max-content;
         gap: 30px;
-        -webkit-animation: move 8s infinite linear alternate;
-        animation: move 8s infinite linear alternate;
+        -webkit-animation: move 10s infinite linear alternate;
+        animation: move 10s infinite linear alternate;
       }
       
       #box:hover {
