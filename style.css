@@ -651,6 +651,7 @@ hr {
         justify-content: space-between;
         margin-bottom: 80px;
         width: max-content;
+        overflow-x: hidden;
         gap: 30px;
         -webkit-animation: move 10s infinite linear alternate;
         animation: move 10s infinite linear alternate;
