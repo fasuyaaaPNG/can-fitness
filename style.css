@@ -397,7 +397,7 @@ hr {
         margin: 0;
         /* border: 1px solid rgb(255, 255, 255); */
         font-family: "Poppins", serif;
-        overflow-x: auto;
+        overflow-x: hidden;
     }
     
     nav {
@@ -601,7 +601,7 @@ hr {
     
     #trainer{
         width: 300px;
-        border: 1px solid red;
+        /* border: 1px solid red; */
         margin-top: -20px;
         margin-left: auto;
         margin-right: auto;
@@ -696,15 +696,19 @@ hr {
         width: max-content;
         margin-left: auto;
         margin-right: auto;
-        margin-bottom: 80px;
+        margin-top: -20px;
+        margin-bottom: 30px;
     }
     
     .sectionBoxHappyMember {
         display: flex;
         justify-content: space-between;
-        width: 1200px;
+        width: max-content;
         margin-left: auto;
         margin-right: auto;
+        flex-direction: column;
+        border: 1px solid green;
+        gap: 15px;
     }
     
     .boxHappyMember {
@@ -712,7 +716,7 @@ hr {
         border-radius: 15px;
         color: #000000;
         width: max-content;
-        padding: 17px 29px 17px 29px;
+        padding: 10px 22px 10px 22px;
         display: flex;
         flex-direction: column;
         gap: 20px;
@@ -723,12 +727,12 @@ hr {
         flex-direction: row;
         width: max-content;
         align-items: center;
-        gap: 28px;
+        gap: 17px;
     }
     
     .fotoProfileHappyMember {
-        width: 80px;
-        height: 80px;
+        width: 50px;
+        height: 50px;
     }
     
     .identitasProfileHappyMember {
@@ -740,12 +744,12 @@ hr {
     
     .namaIdentitasProfileHappyMember {
         font-weight: 500;
-        font-size: 20px;
+        font-size: 15px;
     }
     
     .keteranganIdentitasProfileHappyMember {
         font-weight: 400;
-        font-size: 14px;
+        font-size: 10px;
     }
     
     .namaIdentitasProfileHappyMember,.keteranganIdentitasProfileHappyMember {
@@ -754,9 +758,9 @@ hr {
     
     .testiHappyMember {
         color: #585252;
-        font-size: 14px;
+        font-size: 10px;
         font-weight: 400;
-        width: 320px;
+        width: 250px;
     }
     
     .headerFooter {
@@ -764,23 +768,24 @@ hr {
         display: flex;
         align-items: center;
         justify-content: space-between;
-        padding: 0 45px 0 45px;
+        padding: 0 45px 10px 45px;
+        flex-direction: column;
     }
     
     .judulHeaderFooter {
         font-family: "PT Serif", serif;
         font-weight: 700;
-        font-size: 38px;
-        margin: 20px 0 21px 0;
+        font-size: 15px;
+        margin: 10px 0 13px 0;
     }
     
     .buttonHeaderFooter {
         background-color: #F4CD00;
         color: #FFFFFF;
         border: none;
-        padding: 13px 35px 13px 35px;
+        padding: 8px 28px 8px 28px;
         border-radius: 10px;
-        font-size: 20px;
+        font-size: 13px;
     }
     
     footer {
@@ -789,46 +794,54 @@ hr {
     
     .contentFooter {
         display: flex;
-        /* border: 1px solid red; */
         width: max-content;
         margin-left: auto;
         margin-right: auto;
         flex-direction: column;
-        align-items: center;
+        align-items: start;
     }
     
     .logoFooter {
-        width: 218px;
+        width: 158px;
         margin-top: 38px;
         margin-bottom: 35px;
     }
     
     .navFooter {
         display: flex;
-        width: 500px;
+        width: max-content;
         justify-content: space-between;
-        margin-bottom: 39px;
+        margin-bottom: 15px;
+        flex-direction: column;
+        gap: 5px;
     }
     
     .textNavFooter {
-        font-size: 18px;
+        font-size: 12px;
         letter-spacing: 3%;
     }
     
     hr {
         opacity: 0.25;
-        margin-bottom: 30px;
+        margin-bottom: 10px;
+        width: 88vw;
     }
     
     .copyright {
         display: flex;
         align-items: center;
         gap: 10px;
-        margin-bottom: 40px;
+        margin-bottom: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .iconCopyright {
+        width: 15px;
     }
     
     .txtCopyright {
-        font-size: 16px;
+        font-size: 10px;
         font-weight: 300;
     }
   }
