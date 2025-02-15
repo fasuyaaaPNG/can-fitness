@@ -865,7 +865,7 @@ hr {
     }
   }
 
-  @media only screen and (max-width: 550px) {
+@media only screen and (max-width: 550px) {
     .profileTrainer {
         display: flex;
         justify-content: space-between;
@@ -883,7 +883,7 @@ hr {
       
     @-webkit-keyframes move {
         0% {
-            margin-left: -40vw;
+            margin-left: -50vw;
         }
         100% {
             margin-left: 40vw;
@@ -892,10 +892,38 @@ hr {
       
     @keyframes move {
         0% {
-          margin-left: -40vw;
+          margin-left: -50vw;
         }
         100% {
           margin-left: 40vw;
         }
     } 
   }
+
+  @media only screen and (min-width: 641px) and (max-width: 1007px) {
+    .banner1 {
+        width: 1160px;
+    }
+    .desc1, .desc2 {
+        /* border: 1px solid yellow; */
+        display: flex;
+        width: 1150px;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .isiDesc1, .isiDesc2, .isiDesc3 {
+        font-weight: 400;
+        font-size: 17px;
+        width: 680px;
+        line-height: 36px;
+        margin-bottom: 0px;
+    }
+    .judulDesc1, .judulDesc2, .judulDesc3, .judulHappyMember {
+        font-weight: 600;
+        font-size: 30px;
+        width: 550px;
+        margin-bottom: 0px;
+    }
+}
