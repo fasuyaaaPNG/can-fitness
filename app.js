@@ -5,8 +5,8 @@ document.addEventListener('DOMContentLoaded', function() {
     const intervalDelay = 10; // delay dalam milidetik
   
     function autoScroll() {
-      // Cek jika sudah mencapai ujung kanan
-      if (profileTrainer.scrollLeft + profileTrainer.clientWidth >= profileTrainer.scrollWidth) {
+      // Cek jika sudah mencapai ujung kanan dengan toleransi 1 pixel
+      if (profileTrainer.scrollLeft + profileTrainer.clientWidth >= profileTrainer.scrollWidth - 1) {
         direction = -1;
       }
       // Cek jika sudah mencapai ujung kiri
@@ -17,7 +17,6 @@ document.addEventListener('DOMContentLoaded', function() {
       profileTrainer.scrollLeft += direction * step;
     }
   
-    // Jalankan auto scroll secara berulang
     setInterval(autoScroll, intervalDelay);
   });
   
