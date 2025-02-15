@@ -601,13 +601,12 @@ hr {
     
     #trainer{
         width: 300px;
-        /* border: 1px solid red; */
+        border: 1px solid red;
         margin-top: -20px;
-        margin-left: 0;
-        margin-right: 0;
+        margin-left: auto;
+        margin-right: auto;
         margin-bottom: 90px;
         position: relative;
-        left: 8.5vw;
     }
     
     .headerDesc3 {
