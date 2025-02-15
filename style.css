@@ -707,7 +707,7 @@ hr {
         margin-left: auto;
         margin-right: auto;
         flex-direction: column;
-        border: 1px solid green;
+        /* border: 1px solid green; */
         gap: 15px;
     }
     
