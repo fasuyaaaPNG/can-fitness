@@ -397,7 +397,7 @@ hr {
         margin: 0;
         /* border: 1px solid rgb(255, 255, 255); */
         font-family: "Poppins", serif;
-        overflow-x: auto;
+        overflow-x: hidden;
     }
     
     nav {
@@ -647,15 +647,18 @@ hr {
         display: flex;
         justify-content: space-between;
         margin-bottom: 130px;
+        width: max-content;
+        gap: 30px;
+        border: 1px solid red;
     }
     
     .namaContentProfileTrainer {
-        font-size: 22px;
+        font-size: 15px;
     }
     
     .fotoContentProfileTrainer {
-        width: 270px;
-        height: 340px;
+        width: 150px;
+        height: 200px;
     }
     
     .judulHappyMember {
