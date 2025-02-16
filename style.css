@@ -22,6 +22,17 @@ nav {
     margin-bottom: 30px;
 }
 
+.textNav1:hover,.textNav2:hover,.textNav3:hover,.textNav4:hover {
+    color: #1AB9BF;
+    transition: all 0.5s ease-out;
+    scale: 0.95;
+}
+
+.textNav1,.textNav2,.textNav3,.textNav4 {
+    color: #ffffff;
+    transition: all 0.5s ease-out;
+}
+
 .logo {
     width: 200px;
 }
