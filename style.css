@@ -1,6 +1,7 @@
 html{
     width: max-content;
     font-family: "Poppins", serif;
+    scroll-behavior: smooth;
 }
 
 body {
